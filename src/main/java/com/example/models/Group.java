@@ -1,22 +1,22 @@
-package com.example.models;
+// package com.example.models;
 
-import java.util.List;
+// import java.util.List;
 
-import jakarta.persistence.Table;
+// import jakarta.persistence.Table;
 
-/**
- * Group
- */
- @Table(name = "Groups")
-class Group {
-    private String name;
-    private List<Integer> userIds;
+// /**
+//  * Group
+//  */
+//  @Table(name = "Groups")
+// class Group {
+//     private String name;
+//     private List<Integer> userIds;
    
 
-    public Group(String name, List<Integer> userIds) {
-        this.name = name;
-        this.userIds = userIds;
+//     public Group(String name, List<Integer> userIds) {
+//         this.name = name;
+//         this.userIds = userIds;
        
-    }
+//     }
     
-}
+// }
