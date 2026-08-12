@@ -3,7 +3,8 @@ package com.example.models;
 /**
  * Notes
  */
-public class Notes {
+
+public class Note{
     private String title;
     private String content;
     private User userId;
